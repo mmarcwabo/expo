@@ -1,4 +1,5 @@
-//package expo.modules.av.progress
+// Uncomment when refactoring ProgressLooper
+// package expo.modules.av.progress
 //
 //import io.mockk.Runs
 //import io.mockk.every

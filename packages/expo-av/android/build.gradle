@@ -72,6 +72,8 @@ if (new File(rootProject.projectDir.parentFile, 'package.json').exists()) {
 }
 
 dependencies {
+
+//  Uncomment to run unit tests
 //  implementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
 //  runtimeOnly "org.junit.jupiter:junit-jupiter-engine:5.5.1"
 //

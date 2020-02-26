@@ -7,6 +7,12 @@ interface TimeMachine {
   val time: Long
 }
 
+/**
+ * @mczernek: NOTE that this class has corresponding test suite. However, since I was unable to set
+ * them up correctly, in order to run them, you should uncomment dependencies in module's build.gradle,
+ * and contents of test class: at packages/expo-av/android/src/test/java/expo/modules/av/progress/ProgressLooperTest.kt
+ * Note, that this breaks client's build, so remember to comment it back.q
+ */
 typealias PlayerProgressListener = () -> Unit
 
 class ProgressLooper(private val timeMachine: TimeMachine) {
